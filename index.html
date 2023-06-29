@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/main.js"></script>
+</head>
+<body>
+    <main>
+        <section id="relogio">
+            <section id="clock-blocks">
+                <div class="block">
+                    <h3 id="horas">00</h3>
+                    <span class="tempo">Horas</span>
+                </div>
+                <div class="block">
+                    <h3 id="minutos">00</h3>
+                    <span class="tempo">Minutos</span>
+                </div>
+                <div class="block">
+                    <h3 id="segundos">00</h3>
+                    <span class="tempo">Segundos</span>
+                </div>
+            </section>
+            <section id="buttons">
+                <div>
+                    <input type="button" value="Iniciar" id="iniciar" onclick="iniciar()">
+                    <input type="button" value="Pausar" id="pausar" onclick="pausar()">
+                    <input type="button" value="Zerar" id="reiniciar" onclick="zerar()">
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
